@@ -7,6 +7,6 @@ public static void main(String args[]){
  if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
   System.out.println("Alphabet");
  else
-  Sytem.out.println("Not a alphabet");
+  Sytem.out.println("No");
  }
 }
