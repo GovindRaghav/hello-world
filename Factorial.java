@@ -5,7 +5,7 @@ class Factorial{
 		Scanner sc=new Scanner(System.in);
 		int n;
 		System.out.println("Enter number:");
-		n=sc.nextInt();
+		n=sc.nextLong();
 		int i=n;
 		long factorl=1;
 		while(i>0)
