@@ -7,15 +7,19 @@ class NumberReverse{
 	  String s=new String();
 	  String rs=new String();
 	  System.out.println("Enter Number");
-      n=sc.nextLong();
+          n=sc.nextLong();
+	  if(n>=0)
+	  {
 	  s=Long.toString(n);
-      int length=s.length();
-      while(length>0)
+          int length=s.length();
+          while(length>0)
 	  {
 		  rs=rs+s.charAt(length-1);
 		  length=length-1;
 	  }
 	  long rn=Long.parseLong(rs);
    	  System.out.println(rn);
+          else
+	   System.out.println(0);  
 	}
 } 
